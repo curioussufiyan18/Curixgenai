@@ -15,10 +15,11 @@ export default function Home() {
       <FAQ />
       <Footer />
 
-      <button className="fixed bottom-6 right-6 bg-blue-500 w-16 h-16 rounded-full shadow-xl">
+      <button
+        className="fixed bottom-6 right-6 bg-black text-white px-4 py-3 rounded-full shadow-lg z-50"
+      >
         AI
       </button>
     </main>
   );
 }
-
